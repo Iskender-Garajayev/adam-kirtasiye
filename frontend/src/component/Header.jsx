@@ -5,8 +5,10 @@ import {FaShoppingCart, FaUser} from 'react-icons/fa'
 const Header = () => {
   return (
     <header>
+      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
 
-      <FaShoppingCart/>
+      </Navbar>
+    
       
     </header>
   )
