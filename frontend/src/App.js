@@ -4,8 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      hello 
-      
+      Merhaba Ismail ABI 
+
+      DAHA YENI KURULUMUNU YAPIYORUM
     </div>
   );
 }
