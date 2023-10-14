@@ -5,7 +5,7 @@ const Universities = () => {
   return (
     <>
       <Container>
-        <Row>
+        <Row className='ms-auto'>
 
           <Col>
           <Card border="primary" style={{ width: '18rem' }}>
