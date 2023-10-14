@@ -9,7 +9,7 @@ function App() {
 
       <main className='py-3'>
         <Container>
-          Merhaba 
+          
         </Container>
       </main>
     </>
