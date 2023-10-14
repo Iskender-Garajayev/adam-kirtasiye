@@ -1,6 +1,7 @@
 import { Container } from 'react-bootstrap';
 import './App.css';
 import Header from './component/Header';
+import Universities from './pages/Universities';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 
       <main className='py-3'>
         <Container>
-          
+          <Universities/>
         </Container>
       </main>
     </>
