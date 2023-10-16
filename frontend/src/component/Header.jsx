@@ -34,31 +34,27 @@ const Header = () => {
 
           {/*variant="success"*/}
 
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link>Fotokopi siparis</Nav.Link>
               <Nav>
                 <NavDropdown
                   id="nav-dropdown-dark-example"
-                  title='Anadolu Universitesi'
+                  title="Anadolu Universitesi"
                   menuVariant="dark"
                 >
                   <NavDropdown.Item href="/summary">Ozet</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/books">
-                    Kitaplar
-                  </NavDropdown.Item>
-                  
-              
+                  <NavDropdown.Item href="/books">Kitaplar</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav.Link>Siparislerim</Nav.Link>
               <Nav.Link>Iletisim</Nav.Link>
             </Nav>
-          {/* </Navbar.Collapse> */}
+            {/* </Navbar.Collapse> */}
 
-          {/* <Navbar.Collapse id="basic-navbar-nav"> */}
+            {/* <Navbar.Collapse id="basic-navbar-nav"> */}
             <Nav className="ms-auto">
               <Nav.Link href="/cart">
                 <FaShoppingCart /> Cart
