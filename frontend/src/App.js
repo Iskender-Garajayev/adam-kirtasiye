@@ -1,19 +1,21 @@
-import { Container } from 'react-bootstrap';
-import './App.css';
-import Header from './component/Header';
-import Universities from './pages/Universities';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+import Summary from "./pages/Summary";
 
 function App() {
   return (
-    <>
-      <Header/>
-
-      <main className='py-3'>
-        <Container>
-          <Universities/>
-        </Container>
-      </main>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/cart" element={<Cart/>} />
+        <Route path="/summary" element={<Summary/>} />
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 
