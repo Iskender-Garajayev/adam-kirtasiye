@@ -8,6 +8,8 @@ import Summary from "./pages/Summary";
 import Books from "./pages/Books";
 import Contacts from "./pages/Contacts";
 import Orders from "./pages/Orders";
+import NewOrder from "./pages/NewOrder";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route path="/books" element={<Books/>} />
         <Route path="/contacts" element={<Contacts/>} />
         <Route path="/orders" element={<Orders/>} />
-        <Route path="/books" element={<Books/>} />
+        <Route path="/neworder" element={<NewOrder/>} />
+        <Route path="/login" element={<Login/>} />
         
       </Routes>
     </BrowserRouter>
