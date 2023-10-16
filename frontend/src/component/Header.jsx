@@ -34,6 +34,7 @@ const Header = () => {
 
           {/*variant="success"*/}
 
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link>Fotokopi siparis</Nav.Link>
@@ -55,10 +56,9 @@ const Header = () => {
               <Nav.Link>Siparislerim</Nav.Link>
               <Nav.Link>Iletisim</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          {/* </Navbar.Collapse> */}
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          {/* <Navbar.Collapse id="basic-navbar-nav"> */}
             <Nav className="ms-auto">
               <Nav.Link href="/cart">
                 <FaShoppingCart /> Cart
