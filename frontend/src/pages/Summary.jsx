@@ -8,8 +8,8 @@ const Summary = () => {
     <Header/>
 
     <Stack direction="horizontal" className="col-md-5 mx-auto py-6" gap={3} >
-      <Form.Control className="me-auto" placeholder="Add your item here..." />
-      <Button variant="secondary">Submit</Button>
+      <Form.Control className="me-auto" placeholder="Kitap ozeti ismini secin... " />
+      <Button variant="success">Submit</Button>
     </Stack>
     </>
   )
