@@ -5,10 +5,10 @@ const Universities = () => {
   return (
     <>
       <Container>
-        <Row className='ms-auto'>
+        <Row className="justify-content-center" gap={5}>
 
-          <Col>
-          <Card border="primary" style={{ width: '18rem' }}>
+          <Col gap={5} >
+          <Card gap={5} bg='Info' border="primary" style={{ width: '25rem' }}>
         <Card.Header>Header</Card.Header>
         <Card.Body>
           <Card.Title>Primary Card Title</Card.Title>
@@ -22,7 +22,7 @@ const Universities = () => {
 
 
           <Col>
-          <Card border="danger" style={{ width: '18rem' }}>
+          <Card border="danger" style={{ width: '25rem' }}>
         <Card.Header>Header</Card.Header>
         <Card.Body>
           <Card.Title>Danger Card Title</Card.Title>
@@ -36,7 +36,7 @@ const Universities = () => {
 
 
           <Col>
-          <Card border="warning" style={{ width: '18rem' }}>
+          <Card border="warning" style={{ width: '25rem' }}>
         <Card.Header>Header</Card.Header>
         <Card.Body>
           <Card.Title>Warning Card Title</Card.Title>
