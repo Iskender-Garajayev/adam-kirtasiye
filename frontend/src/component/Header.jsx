@@ -1,7 +1,8 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import { FaShoppingCart, FaUser } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
+// PiPhoneCallThin
+import {PiPhoneCallThin} from 'react-icon'
 const Header = () => {
   return (
     <header>
@@ -69,17 +70,7 @@ const Header = () => {
 
             {/* <Navbar.Collapse id="basic-navbar-nav"> */}
             <Nav className="ms-auto">
-              <LinkContainer to="/cart">
-                <Nav.Link>
-                  <FaShoppingCart /> Cart
-                </Nav.Link>
-              </LinkContainer>
-
-              <LinkContainer to="/login">
-                <Nav.Link>
-                  <FaUser /> Login
-                </Nav.Link>
-              </LinkContainer>
+            <PiPhoneCallThin/>
             </Nav>
           </Navbar.Collapse>
         </Container>
